@@ -49,12 +49,16 @@ export async function getInstalledVersion() {
 
 /**
  * 保存已安装版本信息
+ * @param {string} version - 版本号
+ * @param {string[]} components - 组件列表
+ * @param {string[]} installedFiles - 安装的文件列表（绝对路径）
  */
-export async function saveInstalledVersion(version, components) {
+export async function saveInstalledVersion(version, components, installedFiles = []) {
   const versionFile = getVersionFilePath();
   await fs.writeJson(versionFile, {
     version,
     components,
+    installedFiles,
     installedAt: new Date().toISOString()
   }, { spaces: 2 });
 }

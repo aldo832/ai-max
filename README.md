@@ -338,6 +338,11 @@ aimax/
       <br>
       <b>微信</b>
     </td>
+    <td align="center">
+      <img src="https://claudecodecn-1253302184.cos.ap-beijing.myqcloud.com/paypal.png" width="200" alt="PayPal">
+      <br>
+      <b>PayPal</b>
+    </td>
   </tr>
 </table>
 

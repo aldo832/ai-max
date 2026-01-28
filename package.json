@@ -1,6 +1,6 @@
 {
   "name": "aimax",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "AI MAX - Claude Code 能力增强，开箱即用",
   "main": "src/index.js",
   "bin": {

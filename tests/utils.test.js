@@ -165,6 +165,29 @@ describe('utils.js', () => {
         expect.objectContaining({
           version: '1.0.0',
           components: ['agents', 'rules'],
+          installedFiles: [],
+          installedAt: expect.any(String)
+        }),
+        { spaces: 2 }
+      );
+    });
+
+    it('should save installed files list for precise uninstall', async () => {
+      const writeJsonMock = vi.spyOn(fs, 'writeJson').mockResolvedValue();
+
+      const installedFiles = [
+        '/Users/test/.claude/skills/test-skill.md',
+        '/Users/test/.claude/agents/test-agent.md'
+      ];
+
+      await saveInstalledVersion('1.0.0', ['skills', 'agents'], installedFiles);
+
+      expect(writeJsonMock).toHaveBeenCalledWith(
+        expect.stringContaining('.aimax-version'),
+        expect.objectContaining({
+          version: '1.0.0',
+          components: ['skills', 'agents'],
+          installedFiles: installedFiles,
           installedAt: expect.any(String)
         }),
         { spaces: 2 }
