@@ -14,7 +14,7 @@
 # 全局安装
 npm install -g aimax
 
-# 增强claude code
+# 执行aimax，增强claude code智商
 aimax                    # 终端执行aimax，进行交互式安装
 
 # Claude Code 使用
